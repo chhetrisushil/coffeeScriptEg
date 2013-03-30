@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" name="Default" comment="" />
+    <list default="true" id="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base/JSgoodies.AbstractClass.js" afterPath="$PROJECT_DIR$/js/base/JSgoodies.AbstractClass.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base/JSgoodies.Class.js" afterPath="$PROJECT_DIR$/js/base/JSgoodies.Class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controller/TodoListController.js" afterPath="$PROJECT_DIR$/js/controller/TodoListController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="coffeeScriptEg.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/dummy.txt" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364514898240" ignored="false" />
+    <file path="/dummy.txt" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364516077890" ignored="false" />
     <file path="/server.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364371903243" ignored="false" />
     <file path="/package.json" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364369806665" ignored="false" />
     <file path="/index.html" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364513840321" ignored="false" />
@@ -13,10 +18,12 @@
     <file path="/JavaScript File.txt.ft" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364375456152" ignored="false" />
     <file path="/TodoListView.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364412897978" ignored="false" />
     <file path="/Base.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364514160093" ignored="false" />
-    <file path="/TodoListController.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364514666715" ignored="false" />
+    <file path="/TodoListController.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364612845083" ignored="false" />
     <file path="/TodoListModel.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364413971159" ignored="false" />
-    <file path="/Dummy.txt" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364515124552" ignored="false" />
+    <file path="/Dummy.txt" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364613757070" ignored="false" />
     <file path="/.gitignore" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364515528381" ignored="false" />
+    <file path="/JSgoodies.Class.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364612786098" ignored="false" />
+    <file path="/JSgoodies.AbstractClass.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364612881103" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,28 +82,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="26" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="58" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-19.538462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="378" selection-end="378" vertical-scroll-proportion="0.22149837">
+            <state line="12" column="75" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,7 +121,52 @@
       <file leaf-file-name="TodoListController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controller/TodoListController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="44" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
+            <state line="29" column="49" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSgoodies.AbstractClass.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.AbstractClass.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="31" selection-start="3136" selection-end="3145" vertical-scroll-proportion="1.5523385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSgoodies.ObservableClass.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.ObservableClass.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="38" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSgoodies.Interface.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Interface.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="55" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSgoodies.Util.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="77" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSgoodies.Class.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Class.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="42" selection-start="1488" selection-end="1497" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,9 +216,6 @@
       <MyDateState />
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -197,9 +228,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/base/Base.js" />
         <option value="$PROJECT_DIR$/js/model/TodoListModel.js" />
-        <option value="$PROJECT_DIR$/js/controller/TodoListController.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/js/base/JSgoodies.Class.js" />
+        <option value="$PROJECT_DIR$/js/controller/TodoListController.js" />
+        <option value="$PROJECT_DIR$/js/base/JSgoodies.AbstractClass.js" />
       </list>
     </option>
   </component>
@@ -237,6 +270,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -284,9 +318,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffeeScriptEg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffeeScriptEg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffeeScriptEg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffeeScriptEg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,6 +365,7 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="fileTemplates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -446,7 +516,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1856" height="1098" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -458,20 +528,21 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.6701791" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.6796628" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33874458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3382508" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3203372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -530,47 +601,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.IntelliJIdea12/config/plugins/NodeJS/lib/NodeJS.jar!/com/jetbrains/nodejs/library/node_globals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="21" selection-start="8082" selection-end="8082" vertical-scroll-proportion="0.36019737" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nunit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="54" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/plugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="687" selection-end="687" vertical-scroll-proportion="0.38762215" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.AbstractClass.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="26" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/node_modules/express/node_modules/connect/node_modules/qs/test/browser/mocha.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1047" column="28" selection-start="19660" selection-end="19660" vertical-scroll-proportion="0.33223686">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="14" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.33224756">
-          <folding />
-        </state>
+        <state line="1047" column="28" selection-start="19660" selection-end="19660" vertical-scroll-proportion="0.33223686" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -587,7 +625,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="58" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-19.538462">
+        <state line="36" column="58" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="157" selection-end="157" vertical-scroll-proportion="0.036916394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base/Base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="44" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -599,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/Base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="44" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/model/TodoListModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="45" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
@@ -613,23 +656,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controller/TodoListController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="44" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="157" selection-end="157" vertical-scroll-proportion="0.036916394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="378" selection-end="378" vertical-scroll-proportion="0.22149837">
+        <state line="12" column="75" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controller/TodoListController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="49" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.ObservableClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="38" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="77" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Interface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="55" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="42" selection-start="1488" selection-end="1497" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.AbstractClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="31" selection-start="3136" selection-end="3145" vertical-scroll-proportion="1.5523385">
           <folding />
         </state>
       </provider>

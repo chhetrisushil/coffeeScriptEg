@@ -29,5 +29,5 @@
         delete: function () {
 
         }
-    }).implement(ITodoList);
+    }).implements(ITodoList);
 })(this, this.document, jQuery, (this.APP || (this.APP = {})), (this.Base || (this.Base = {})));
