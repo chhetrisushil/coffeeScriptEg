@@ -2,24 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base/Base.js" afterPath="$PROJECT_DIR$/js/base/Base.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base/JSgoodies.AbstractClass.js" afterPath="$PROJECT_DIR$/js/base/JSgoodies.AbstractClass.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base/JSgoodies.Class.js" afterPath="$PROJECT_DIR$/js/base/JSgoodies.Class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controller/TodoListController.js" afterPath="$PROJECT_DIR$/js/controller/TodoListController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/model/TodoListModel.js" afterPath="$PROJECT_DIR$/js/model/TodoListModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/view/TodoListView.js" afterPath="$PROJECT_DIR$/js/view/TodoListView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="coffeeScriptEg.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/dummy.txt" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364516077890" ignored="false" />
+    <file path="/dummy.txt" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364850641561" ignored="false" />
     <file path="/server.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364371903243" ignored="false" />
     <file path="/package.json" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364369806665" ignored="false" />
-    <file path="/index.html" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364513840321" ignored="false" />
-    <file path="/main.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364514868940" ignored="false" />
+    <file path="/index.html" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364844172081" ignored="false" />
+    <file path="/main.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364848899780" ignored="false" />
     <file path="/TodoList.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364374895978" ignored="false" />
     <file path="/JavaScript File.txt.ft" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364375456152" ignored="false" />
-    <file path="/TodoListView.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364412897978" ignored="false" />
-    <file path="/Base.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364514160093" ignored="false" />
-    <file path="/TodoListController.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364612845083" ignored="false" />
-    <file path="/TodoListModel.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364413971159" ignored="false" />
-    <file path="/Dummy.txt" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364682238459" ignored="false" />
+    <file path="/TodoListView.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364850492095" ignored="false" />
+    <file path="/Base.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364848545299" ignored="false" />
+    <file path="/TodoListController.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364850588656" ignored="false" />
+    <file path="/TodoListModel.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364850342222" ignored="false" />
+    <file path="/Dummy.txt" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364842302721" ignored="false" />
     <file path="/.gitignore" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364515528381" ignored="false" />
     <file path="/JSgoodies.Class.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364612786098" ignored="false" />
     <file path="/JSgoodies.AbstractClass.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364612881103" ignored="false" />
@@ -84,7 +90,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="75" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+            <state line="21" column="38" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,7 +99,16 @@
       <file leaf-file-name="TodoListModel.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/model/TodoListModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="45" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
+            <state line="22" column="47" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoListController.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/controller/TodoListController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="54" selection-start="525" selection-end="525" vertical-scroll-proportion="0.31378937">
               <folding />
             </state>
           </provider>
@@ -102,7 +117,7 @@
       <file leaf-file-name="TodoListView.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/view/TodoListView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="36" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+            <state line="15" column="45" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,25 +126,16 @@
       <file leaf-file-name="Base.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/base/Base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="54" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+            <state line="45" column="20" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSgoodies.Interface.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Interface.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSgoodies.Class.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="42" selection-start="7411" selection-end="7411" vertical-scroll-proportion="0.37444934">
+            <state line="37" column="42" selection-start="1934" selection-end="1934" vertical-scroll-proportion="-20.538462">
               <folding />
             </state>
           </provider>
@@ -144,7 +150,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="nodemon server/server.js" />
       <command text="nodemon server/server.js" />
       <command text="nodemon server/server.js" />
       <command text="nodemon server/server.js" />
@@ -169,6 +174,7 @@
       <command text="nodemon server/server.js" />
       <command text="nodemon server/server.js" />
       <command text="nodemon server/server.js" />
+      <command text="nodemon server/server.js" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -179,6 +185,9 @@
       <MyDateState />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -187,16 +196,16 @@
         <option value="$PROJECT_DIR$/server/server.js" />
         <option value="$PROJECT_DIR$/js/base/base.js" />
         <option value="$PROJECT_DIR$/js/controller/TodoList.js" />
-        <option value="$PROJECT_DIR$/js/view/TodoListView.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/base/Base.js" />
-        <option value="$PROJECT_DIR$/js/model/TodoListModel.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/js/controller/TodoListController.js" />
         <option value="$PROJECT_DIR$/js/base/JSgoodies.AbstractClass.js" />
         <option value="$PROJECT_DIR$/js/base/JSgoodies.Interface.js" />
         <option value="$PROJECT_DIR$/js/base/JSgoodies.Class.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/base/Base.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/model/TodoListModel.js" />
+        <option value="$PROJECT_DIR$/js/view/TodoListView.js" />
+        <option value="$PROJECT_DIR$/js/controller/TodoListController.js" />
       </list>
     </option>
   </component>
@@ -234,7 +243,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -282,6 +290,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffeeScriptEg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffeeScriptEg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffeeScriptEg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffeeScriptEg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -306,6 +350,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -470,7 +515,11 @@
       <created>1364634648707</created>
       <updated>1364634648707</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="* Updated JSgoodies base files">
+      <created>1364682261847</created>
+      <updated>1364682261847</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -495,13 +544,13 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.6796628" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3382508" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3203372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -562,11 +611,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/node_modules/express/node_modules/connect/node_modules/qs/test/browser/mocha.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1047" column="28" selection-start="19660" selection-end="19660" vertical-scroll-proportion="0.33223686" />
@@ -582,35 +626,9 @@
         <state line="6" column="23" selection-start="185" selection-end="188" vertical-scroll-proportion="0.110749185" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="58" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="20" selection-start="157" selection-end="157" vertical-scroll-proportion="0.036916394" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/view/TodoListView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/model/TodoListModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="75" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Util.js">
@@ -623,35 +641,70 @@
         <state line="26" column="9" selection-start="74" selection-end="1101" vertical-scroll-proportion="0.47991315" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.ObservableClass.js">
+    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="74" selection-start="764" selection-end="764" vertical-scroll-proportion="-2.4701412" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Interface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
+        <state line="127" column="52" selection-start="7693" selection-end="7693" vertical-scroll-proportion="0.561674">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controller/TodoListController.js">
+    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Interface.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="42" selection-start="847" selection-end="847" vertical-scroll-proportion="0.47991315">
+        <state line="15" column="27" selection-start="555" selection-end="555" vertical-scroll-proportion="0.27687296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="42" selection-start="1934" selection-end="1934" vertical-scroll-proportion="-20.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.ObservableClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="86" selection-start="3042" selection-end="3042" vertical-scroll-proportion="0.3370044">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="99" selection-start="3950" selection-end="3974" vertical-scroll-proportion="0.3524229">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/base/Base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="54" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+        <state line="45" column="20" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Class.js">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="42" selection-start="7411" selection-end="7411" vertical-scroll-proportion="0.37444934">
+        <state line="21" column="38" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/view/TodoListView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="45" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/model/TodoListModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="47" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controller/TodoListController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="54" selection-start="525" selection-end="525" vertical-scroll-proportion="0.31378937">
           <folding />
         </state>
       </provider>

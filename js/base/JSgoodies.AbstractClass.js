@@ -23,7 +23,7 @@
                 throw new Error('Class should implement at least one interface');
             }
 
-            for (i =0; (_interface = arguments[i]); i ++) {
+            for (i =0; (_interface = arguments[i], i < len); i ++) {
                 if (!(_interface instanceof JSgoodies.Interface)) {
                     throw new TypeError('Class should implement Type Interface');
                 }
@@ -38,16 +38,16 @@
                         if (method.args.argsCount < method.argsCount) {
                             throw new Error('Minimum no. of expected parameter definition for method "'+method.method+'" is: '+method.argsCount+' instead only: '+arguments.length+' was provided');
                         } else {
-                            proto[method.method] = !method.isTypeCheck ? (function (name, fn, context, count) {
+                            proto[method.method] = !method.isTypeCheck ? (function (name, fn, count) {
                                 return function () {
                                     var ret;
                                     if (arguments.length < count) {
                                         throw new Error('Minimum no. of expected parameter for method "'+name+'" while calling is: '+count+' instead only: '+arguments.length+' was provided');
                                     }
-                                    ret = fn.apply(context, arguments);
+                                    ret = fn.apply(this, arguments);
                                     return ret;
                                 };
-                            })(method.method, proto[method.method], proto, method.argsCount) :
+                            })(method.method, proto[method.method], method.argsCount) :
                                 (function (method, context) {
                                     var toString = Object.prototype.toString,
                                         name = method.method,
@@ -64,18 +64,23 @@
                                             return toString.call(val).match(/^\[object (.*)\]$/)[1];
                                         };
                                     return function () {
-                                        var ret, i, type;
+                                        var ret, i, type,evaledType;
                                         if (arguments.length < count) {
                                             throw new Error('Minimum no. of expected parameter for method "'+name+'" while calling is: '+count+' instead only: '+arguments.length+' was provided');
                                         }
 
                                         for (i = 0, len = method.types.length; i < len; i++) {
                                             type = method.types[i].replace(/^\s+/, '').replace(/\s+$/, ''); // trim the spaces before and after
+                                            try {
+                                                evaledType = window['eval'].call(window, type);
+                                            } catch(e) {
+                                                evaledType = undefined;
+                                            }
                                             if (!~type.indexOf('|')) {
                                                 if (typeOf(arguments[i]).toLowerCase() !== type.toLowerCase()
                                                     && !((typeOf(arguments[i]).toLowerCase() === 'function') ?
-                                                    arguments[i] === window['eval'].call(window, type) :
-                                                    arguments[i] && arguments[i].constructor === window['eval'].call(window, type))) {
+                                                    arguments[i] === evaledType :
+                                                    arguments[i] && arguments[i].constructor === evaledType)) {
 
                                                     throw new TypeError('While calling Expected type for argument "'+method.args.argsName[i]+'" in method "'+method.method+'" is: "'+type+'" instead type: "'+typeOf(arguments[i])+'" was provided');
                                                 }
@@ -86,15 +91,15 @@
                                                 type[1] = type[1].replace(/^\s+/, '').replace(/\s+$/, '') || 'undefined';
                                                 if ((typeOf(arguments[i]).toLowerCase() !== type[0].toLowerCase() && typeOf(arguments[i]).toLowerCase() !== type[1].toLowerCase())
                                                     && !((typeOf(arguments[i]).toLowerCase() === 'function') ?
-                                                    arguments[i] === window['eval'].call(window, type) :
-                                                    arguments[i] && arguments[i].constructor === window['eval'].call(window, type))) {
+                                                    arguments[i] === evaledType :
+                                                    arguments[i] && arguments[i].constructor === evaledType)) {
 
                                                     throw new TypeError('While calling Expected type for argument "'+method.args.argsName[i]+'" in method "'+method.method+'" is: "'+type[0]+'" or "'+type[1]+'" instead type: "'+typeOf(arguments[i])+'" was provided');
                                                 }
                                             }
                                         }
 
-                                        ret = fn.apply(context, arguments);
+                                        ret = fn.apply(this, arguments);
                                         return ret;
                                     };
                                 })(method, proto);
@@ -115,7 +120,7 @@
                 match = argsRegExp.exec(fnToString)[1],
                 argsCount, argsName;
             match = match.replace(commentRegExp, ''); // this is to remove any comment made for any arguments.
-            argsCount = (match) ? ~match.indexOf(',') ? (argsName = match.split(','), match.split(',').length) : 1 : 0;
+            argsCount = (match) ? ~match.indexOf(',') ? (argsName = match.split(','), match.split(',').length) : (argsName = match, 1) : 0;
 
             return {argsName: argsName, argsCount: parseInt(argsCount, 10)};
         },

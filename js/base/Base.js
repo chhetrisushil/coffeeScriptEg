@@ -29,6 +29,25 @@ var Base = {};
 
 Base.Util = {
     debug: true,
+    toString: Object.prototype.toString,
+
+    typeOf: function (val) {
+        if (typeof val === 'undefined') {
+            return 'Undefined';
+        }
+
+        if (val === null) {
+            return 'Null';
+        }
+
+        return this.toString.call(val).match(/^\[object (.*)\]$/)[1];
+    },
+    isString: function (val) {
+        return this.typeOf(val) === 'String';
+    },
+    isObject: function (val) {
+        return this.typeOf(val) === 'Object';
+    },
     log: function () {
         var console, debug;
         debug = (typeof this.debug === 'undefined') ? Base.Util.debug : this.debug;
@@ -40,7 +59,7 @@ Base.Util = {
 /**
  * @class Base class for views
  */
-Base.View = JSgoodies.Class.extend({
+Base.View = JSgoodies.Class({
     debug: true,
     name: 'Base.View',
 
@@ -53,7 +72,7 @@ Base.View = JSgoodies.Class.extend({
 /**
  * @class Base class for models
  */
-Base.Model = JSgoodies.ObservableClass.extend({
+Base.Model = JSgoodies.Class({
     debug: true,
     name: 'Base.Model',
 
@@ -61,12 +80,12 @@ Base.Model = JSgoodies.ObservableClass.extend({
         this.log('initializing base model');
     },
     log: Base.Util.log
-});
+})._extends(JSgoodies.ObservableClass);
 
 /**
  * @class Base class for controllers
  */
-Base.Controller = JSgoodies.Class.extend({
+Base.Controller = JSgoodies.Class({
     debug: true,
     name: 'Base.Controller',
 
