@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base/JSgoodies.AbstractClass.js" afterPath="$PROJECT_DIR$/js/base/JSgoodies.AbstractClass.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base/JSgoodies.Class.js" afterPath="$PROJECT_DIR$/js/base/JSgoodies.Class.js" />
+      <change type="DELETED" beforePath="C:\Users\chhetrisushil\Documents\gitProjects\coffeeScriptEg\js\base\JSgoodies.AbstractClass.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\chhetrisushil\Documents\gitProjects\coffeeScriptEg\js\base\JSgoodies.Class.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\chhetrisushil\Documents\gitProjects\coffeeScriptEg\js\base\JSgoodies.Interface.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\chhetrisushil\Documents\gitProjects\coffeeScriptEg\js\base\JSgoodies.ObservableClass.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\chhetrisushil\Documents\gitProjects\coffeeScriptEg\js\base\JSgoodies.Util.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="coffeeScriptEg.iws" />
@@ -11,7 +15,7 @@
     <file path="/dummy.txt" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364850641561" ignored="false" />
     <file path="/server.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364371903243" ignored="false" />
     <file path="/package.json" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364369806665" ignored="false" />
-    <file path="/index.html" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364844172081" ignored="false" />
+    <file path="/index.html" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1365697654352" ignored="false" />
     <file path="/main.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364848899780" ignored="false" />
     <file path="/TodoList.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364374895978" ignored="false" />
     <file path="/JavaScript File.txt.ft" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364375456152" ignored="false" />
@@ -19,7 +23,7 @@
     <file path="/Base.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364848545299" ignored="false" />
     <file path="/TodoListController.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364850588656" ignored="false" />
     <file path="/TodoListModel.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364850342222" ignored="false" />
-    <file path="/Dummy.txt" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1365018276855" ignored="false" />
+    <file path="/Dummy.txt" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1365697623638" ignored="false" />
     <file path="/.gitignore" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364515528381" ignored="false" />
     <file path="/JSgoodies.Class.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1365018214265" ignored="false" />
     <file path="/JSgoodies.AbstractClass.js" changelist="f1a72d86-9ae9-4978-aab9-e4f6d8fda74e" time="1364612881103" ignored="false" />
@@ -40,7 +44,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -75,6 +78,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -120,19 +124,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Base.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/base/Base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="20" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSgoodies.Class.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="24" selection-start="636" selection-end="636" vertical-scroll-proportion="0.31828195">
+            <state line="60" column="116" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.24321389">
               <folding />
             </state>
           </provider>
@@ -141,16 +136,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="32" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSgoodies.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="39" column="90" selection-start="1943" selection-end="1943" vertical-scroll-proportion="-23.461538">
               <folding />
             </state>
           </provider>
@@ -212,12 +198,12 @@
         <option value="$PROJECT_DIR$/js/base/JSgoodies.AbstractClass.js" />
         <option value="$PROJECT_DIR$/js/base/JSgoodies.Interface.js" />
         <option value="$PROJECT_DIR$/js/base/JSgoodies.Class.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/base/Base.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/model/TodoListModel.js" />
         <option value="$PROJECT_DIR$/js/view/TodoListView.js" />
         <option value="$PROJECT_DIR$/js/controller/TodoListController.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -255,8 +241,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -327,6 +311,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,8 +329,8 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -364,6 +350,22 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -394,22 +396,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -423,13 +409,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -451,6 +430,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
@@ -511,7 +497,11 @@
       <created>1365018033329</created>
       <updated>1365018033330</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="* Updating base libs">
+      <created>1365018379903</created>
+      <updated>1365018379903</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -583,7 +573,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Adding JSgoodies file" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Updating base libs" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -600,6 +590,7 @@
     <MESSAGE value="* Updated JSgoodies base files" />
     <MESSAGE value="* Setting up listeners and Collections" />
     <MESSAGE value="* Adding JSgoodies file" />
+    <MESSAGE value="* Updating base libs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -625,21 +616,6 @@
         <state line="2" column="20" selection-start="157" selection-end="157" vertical-scroll-proportion="0.036916394" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="77" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Interface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="555" selection-end="555" vertical-scroll-proportion="0.27687296" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.ObservableClass.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="86" selection-start="3042" selection-end="3042" vertical-scroll-proportion="0.3370044" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="38" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
@@ -661,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="32" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -682,16 +651,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/Base.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="20" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
+        <state line="39" column="90" selection-start="1943" selection-end="1943" vertical-scroll-proportion="-23.461538">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/JSgoodies.Class.js">
+    <entry file="file://$PROJECT_DIR$/js/base/Base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="636" selection-end="636" vertical-scroll-proportion="0.31828195">
+        <state line="60" column="116" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.24321389">
           <folding />
         </state>
       </provider>
